@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B31635961C86EFD7009FC804 /* ODLoadMoreControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B31635951C86EFD7009FC804 /* ODLoadMoreControl.m */; };
+		B31635981C86F00B009FC804 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31635971C86F00B009FC804 /* ViewController.m */; };
+		B316359A1C86F040009FC804 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B31635991C86F040009FC804 /* Default-568h@2x.png */; };
 		E5013A2115A43A940035F4A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5013A2015A43A940035F4A0 /* UIKit.framework */; };
 		E5013A2315A43A940035F4A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5013A2215A43A940035F4A0 /* Foundation.framework */; };
 		E5013A2515A43A940035F4A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5013A2415A43A940035F4A0 /* CoreGraphics.framework */; };
 		E5013A2B15A43A940035F4A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5013A2915A43A940035F4A0 /* InfoPlist.strings */; };
 		E5013A2D15A43A940035F4A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5013A2C15A43A940035F4A0 /* main.m */; };
 		E5013A3115A43A940035F4A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5013A3015A43A940035F4A0 /* AppDelegate.m */; };
-		E5013A3415A43A940035F4A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5013A3315A43A940035F4A0 /* ViewController.m */; };
 		E5013A4515A43B8C0035F4A0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5013A4415A43B8C0035F4A0 /* QuartzCore.framework */; };
 		E5013A4A15A43BA60035F4A0 /* ODRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E5013A4915A43BA60035F4A0 /* ODRefreshControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B31635941C86EFD7009FC804 /* ODLoadMoreControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODLoadMoreControl.h; sourceTree = "<group>"; };
+		B31635951C86EFD7009FC804 /* ODLoadMoreControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODLoadMoreControl.m; sourceTree = "<group>"; };
+		B31635971C86F00B009FC804 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B31635991C86F040009FC804 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E5013A1C15A43A940035F4A0 /* ODRefreshControlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ODRefreshControlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5013A2015A43A940035F4A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E5013A2215A43A940035F4A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -30,7 +36,6 @@
 		E5013A2F15A43A940035F4A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E5013A3015A43A940035F4A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E5013A3215A43A940035F4A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E5013A3315A43A940035F4A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E5013A4415A43B8C0035F4A0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E5013A4815A43BA60035F4A0 /* ODRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODRefreshControl.h; sourceTree = "<group>"; };
 		E5013A4915A43BA60035F4A0 /* ODRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODRefreshControl.m; sourceTree = "<group>"; };
@@ -54,6 +59,7 @@
 		E5013A1115A43A930035F4A0 = {
 			isa = PBXGroup;
 			children = (
+				B31635991C86F040009FC804 /* Default-568h@2x.png */,
 				E5013A2615A43A940035F4A0 /* ODRefreshControlDemo */,
 				E5013A1F15A43A940035F4A0 /* Frameworks */,
 				E5013A1D15A43A940035F4A0 /* Products */,
@@ -85,7 +91,7 @@
 				E5013A2F15A43A940035F4A0 /* AppDelegate.h */,
 				E5013A3015A43A940035F4A0 /* AppDelegate.m */,
 				E5013A3215A43A940035F4A0 /* ViewController.h */,
-				E5013A3315A43A940035F4A0 /* ViewController.m */,
+				B31635971C86F00B009FC804 /* ViewController.m */,
 				E5013A2715A43A940035F4A0 /* Supporting Files */,
 			);
 			path = ODRefreshControlDemo;
@@ -108,6 +114,8 @@
 			children = (
 				E5013A4815A43BA60035F4A0 /* ODRefreshControl.h */,
 				E5013A4915A43BA60035F4A0 /* ODRefreshControl.m */,
+				B31635941C86EFD7009FC804 /* ODLoadMoreControl.h */,
+				B31635951C86EFD7009FC804 /* ODLoadMoreControl.m */,
 			);
 			name = ODRefreshControl;
 			path = ../../ODRefreshControl;
@@ -164,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5013A2B15A43A940035F4A0 /* InfoPlist.strings in Resources */,
+				B316359A1C86F040009FC804 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,10 +183,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B31635961C86EFD7009FC804 /* ODLoadMoreControl.m in Sources */,
 				E5013A2D15A43A940035F4A0 /* main.m in Sources */,
 				E5013A3115A43A940035F4A0 /* AppDelegate.m in Sources */,
-				E5013A3415A43A940035F4A0 /* ViewController.m in Sources */,
 				E5013A4A15A43BA60035F4A0 /* ODRefreshControl.m in Sources */,
+				B31635981C86F00B009FC804 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +258,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ODRefreshControlDemo/ODRefreshControlDemo-Prefix.pch";
 				INFOPLIST_FILE = "ODRefreshControlDemo/ODRefreshControlDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -260,7 +270,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ODRefreshControlDemo/ODRefreshControlDemo-Prefix.pch";
 				INFOPLIST_FILE = "ODRefreshControlDemo/ODRefreshControlDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
