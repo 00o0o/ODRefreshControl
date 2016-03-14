@@ -26,6 +26,7 @@
 }
 
 @property (nonatomic, readonly, getter=isRefreshing) BOOL refreshing;
+@property (nonatomic, assign) CGFloat offset;
 
 #ifdef __IPHONE_5_0
 @property (nonatomic, strong) UIColor *tintColor UI_APPEARANCE_SELECTOR;

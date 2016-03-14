@@ -58,6 +58,7 @@ static inline CGFloat lerp(CGFloat a, CGFloat b, CGFloat p)
     if (self) {
         self.scrollView = scrollView;
         self.originalContentInset = scrollView.contentInset;
+        self.offset = 64.5f;
         
         self.autoresizingMask = UIViewAutoresizingFlexibleWidth;
         [scrollView addSubview:self];
@@ -127,6 +128,11 @@ static inline CGFloat lerp(CGFloat a, CGFloat b, CGFloat p)
     }
 }
 
+- (void)setOffset:(CGFloat)offset {
+    _offset = offset;
+    self.scrollView.frame = CGRectMake(CGRectGetMinX(self.scrollView.frame), CGRectGetMinY(self.scrollView.frame) + _offset, CGRectGetWidth(self.scrollView.frame), CGRectGetHeight(self.scrollView.frame));
+}
+
 - (void)setTintColor:(UIColor *)tintColor
 {
     _tintColor = tintColor;
@@ -168,7 +174,7 @@ static inline CGFloat lerp(CGFloat a, CGFloat b, CGFloat p)
     if ([keyPath isEqualToString:@"contentInset"]) {
         if (!_ignoreInset) {
             self.originalContentInset = [[change objectForKey:@"new"] UIEdgeInsetsValue];
-            self.frame = CGRectMake(0, -(kTotalViewHeight + self.scrollView.contentInset.top), self.scrollView.frame.size.width, kTotalViewHeight);
+            self.frame = CGRectMake(0, -(kTotalViewHeight + self.scrollView.contentInset.top) + _offset, self.scrollView.frame.size.width, kTotalViewHeight);
         }
         return;
     }
